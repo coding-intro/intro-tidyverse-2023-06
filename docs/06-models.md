@@ -15,7 +15,7 @@ If you want to refresh your knowledge on linear regressions, feel free to read t
 **Unit 4 - Deck 2: Fitting and interpreting models**
 
 ::: slides
-[Slides](https://lukas-jue.github.io/intro-tidyverse-2022/slides/u4-d02-fitting-interpreting-models/u4-d02-fitting-interpreting-models.html#1)
+[Slides](https://coding-intro.github.io/intro-tidyverse-2023-06/slides/u4-d02-fitting-interpreting-models/u4-d02-fitting-interpreting-models.html#1)
 :::
 
 ::: reading
@@ -32,7 +32,7 @@ If you want to refresh your knowledge of regressions, feel free to study the sli
 **Unit 4 - Deck 1: The language of models**
 
 ::: slides
-[Slides](https://lukas-jue.github.io/intro-tidyverse-2022/slides/u4-d01-language-of-models/u4-d01-language-of-models.html#1)
+[Slides](https://coding-intro.github.io/intro-tidyverse-2023-06/slides/u4-d01-language-of-models/u4-d01-language-of-models.html#1)
 :::
 :::
 
@@ -40,7 +40,7 @@ If you want to refresh your knowledge of regressions, feel free to study the sli
 **Unit 4 - Deck 3: Modelling nonlinear relationships**
 
 ::: slides
-[Slides](https://lukas-jue.github.io/intro-tidyverse-2022/slides/u4-d03-modeling-nonlinear-relationships/u4-d03-modeling-nonlinear-relationships.html#1)
+[Slides](https://coding-intro.github.io/intro-tidyverse-2023-06/slides/u4-d03-modeling-nonlinear-relationships/u4-d03-modeling-nonlinear-relationships.html#1)
 :::
 :::
 
