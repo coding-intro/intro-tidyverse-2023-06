@@ -52,8 +52,7 @@ Please open your Posit Cloud for this exercise.
 
 ### Additional material not covered in class
 
-We will not cover this unit due to time constraints.
-If you're interested in histograms, scatter-, bar-, and density plots, feel free to study the slides on your own.
+We will not cover this unit due to time constraints. If you're interested in histograms, scatter-, bar-, and density plots, feel free to study the slides on your own.
 
 ::: slide-deck
 **Unit 2 - Deck 3: Visualizing numerical data**
