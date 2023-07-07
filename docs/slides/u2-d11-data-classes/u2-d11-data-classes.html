@@ -3,10 +3,10 @@
   <head>
     <title>Data classes</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Lukas Jürgensmeier | based on datasciencebox.org" />
+    <meta name="author" content="based on datasciencebox.org" />
     <script src="libs/header-attrs/header-attrs.js"></script>
-    <link href="libs/font-awesome/css/all.css" rel="stylesheet" />
-    <link href="libs/font-awesome/css/v4-shims.css" rel="stylesheet" />
+    <link href="libs/font-awesome/css/all.min.css" rel="stylesheet" />
+    <link href="libs/font-awesome/css/v4-shims.min.css" rel="stylesheet" />
     <link href="libs/panelset/panelset.css" rel="stylesheet" />
     <script src="libs/panelset/panelset.js"></script>
     <link rel="stylesheet" href="../xaringan-themer.css" type="text/css" />
@@ -18,7 +18,7 @@ class: center, middle, inverse, title-slide
 
 # Data classes
 ## <br><br> Introduction to Data Science with R and Tidyverse
-### Lukas Jürgensmeier | based on <a href="https://datasciencebox.org/">datasciencebox.org</a>
+### based on datasciencebox.org
 
 ---
 
@@ -30,7 +30,7 @@ layout: true
   
 &lt;div class="my-footer"&gt;
 &lt;span&gt;
-Introduction to Data Science with R and Tidyverse | Lukas Jürgensmeier, Lara Zaremba &amp; Karlo Lukic | based on
+Introduction to Data Science with R and Tidyverse | Lukas Jürgensmeier, Matteo Fina, Jan Bischoff | based on
 &lt;a href="https://datasciencebox.org" target="_blank"&gt;datasciencebox.org&lt;/a&gt;
 &lt;/span&gt;
 &lt;/div&gt; 
@@ -395,16 +395,16 @@ hotels %&gt;%
 
 ```
 ## # A tibble: 119,390 x 4
-##   arrival_date_year arrival_date_month arrival_date_week_number
-##               &lt;dbl&gt; &lt;chr&gt;                                 &lt;dbl&gt;
-## 1              2015 July                                     27
-## 2              2015 July                                     27
-## 3              2015 July                                     27
-## 4              2015 July                                     27
-## 5              2015 July                                     27
-## 6              2015 July                                     27
-## # ... with 119,384 more rows, and 1 more variable:
-## #   arrival_date_day_of_month &lt;dbl&gt;
+##   arrival_date_year arrival_date_month arrival_date_wee~1 arriv~2
+##               &lt;dbl&gt; &lt;chr&gt;                           &lt;dbl&gt;   &lt;dbl&gt;
+## 1              2015 July                               27       1
+## 2              2015 July                               27       1
+## 3              2015 July                               27       1
+## 4              2015 July                               27       1
+## 5              2015 July                               27       1
+## 6              2015 July                               27       1
+## # ... with 119,384 more rows, and abbreviated variable names
+## #   1: arrival_date_week_number, 2: arrival_date_day_of_month
 ```
 
 ---
@@ -425,12 +425,12 @@ hotels %&gt;%
 
 ```
 ## # A tibble: 119,390 x 33
-##   arrival_date hotel       is_canceled lead_time arrival_date_ye~
-##   &lt;glue&gt;       &lt;chr&gt;             &lt;dbl&gt;     &lt;dbl&gt;            &lt;dbl&gt;
-## 1 2015 July 1  Resort Hot~           0       342             2015
-## 2 2015 July 1  Resort Hot~           0       737             2015
-## 3 2015 July 1  Resort Hot~           0         7             2015
-## 4 2015 July 1  Resort Hot~           0        13             2015
+##   arrival~1 hotel is_ca~2 lead_~3 arriv~4 arriv~5 arriv~6 arriv~7
+##   &lt;glue&gt;    &lt;chr&gt;   &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt; &lt;chr&gt;     &lt;dbl&gt;   &lt;dbl&gt;
+## 1 2015 Jul~ Reso~       0     342    2015 July         27       1
+## 2 2015 Jul~ Reso~       0     737    2015 July         27       1
+## 3 2015 Jul~ Reso~       0       7    2015 July         27       1
+## 4 2015 Jul~ Reso~       0      13    2015 July         27       1
 ...
 ```
 ]
@@ -508,12 +508,12 @@ hotels %&gt;%
 
 ```
 ## # A tibble: 119,390 x 33
-##   arrival_date hotel       is_canceled lead_time arrival_date_ye~
-##   &lt;date&gt;       &lt;chr&gt;             &lt;dbl&gt;     &lt;dbl&gt;            &lt;dbl&gt;
-## 1 2015-07-01   Resort Hot~           0       342             2015
-## 2 2015-07-01   Resort Hot~           0       737             2015
-## 3 2015-07-01   Resort Hot~           0         7             2015
-## 4 2015-07-01   Resort Hot~           0        13             2015
+##   arrival_date hotel      is_ca~1 lead_~2 arriv~3 arriv~4 arriv~5
+##   &lt;date&gt;       &lt;chr&gt;        &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt; &lt;chr&gt;     &lt;dbl&gt;
+## 1 2015-07-01   Resort Ho~       0     342    2015 July         27
+## 2 2015-07-01   Resort Ho~       0     737    2015 July         27
+## 3 2015-07-01   Resort Ho~       0       7    2015 July         27
+## 4 2015-07-01   Resort Ho~       0      13    2015 July         27
 ...
 ```
 ]
