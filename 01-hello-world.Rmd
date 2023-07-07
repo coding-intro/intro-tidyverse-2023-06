@@ -19,7 +19,7 @@ Be sure to register through the link sent to you via e-mail since we purchased a
 **Unit 1 - Deck 1: Welcome**
 
 ::: slides
-[Slides](https://lukas-jue.github.io/intro-tidyverse-2023-january/slides/u1-d01-welcome/u1-d01-welcome.html#1)
+[Slides](https://coding-intro.github.io/intro-tidyverse-2023-06/slides/u1-d01-welcome/u1-d01-welcome.html)
 :::
 :::
 
@@ -37,7 +37,7 @@ Please open your Posit Cloud for this exercise.
 **Unit 1 - Deck 2: Meet the toolkit --- Programming**
 
 ::: slides
-[Slides](https://lukas-jue.github.io/intro-tidyverse-2023-january/slides/u1-d02-toolkit-r/u1-d02-toolkit-r.html)
+[Slides](https://coding-intro.github.io/intro-tidyverse-2023-06/slides/u1-d02-toolkit-r/u1-d02-toolkit-r.html)
 :::
 
 ::: reading

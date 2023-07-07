@@ -62,7 +62,7 @@ A - Yes. Do as much as possible by yourself — that's how you learn it.
 .pull-left-wide[
 **Q - Where do I find the course materials?**
 
-A - On this website: [lukas-jue.github.io/intro-tidyverse-2023-january/](https://lukas-jue.github.io/intro-tidyverse-2023-january/)
+A - On this website: [coding-intro.github.io/intro-tidyverse-2023-06/](https://coding-intro.github.io/intro-tidyverse-2023-06/)
 
 **Q - Can I code on my own during this course?**
 
