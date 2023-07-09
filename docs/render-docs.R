@@ -13,31 +13,31 @@ library(xaringan)
 
 # xaringan ---------------------------------------------------------------------
 
-# tictoc::tic()
-
 xaringans <- dir_info(recurse = 3, glob = "docs/*.Rmd") %>%
   filter(str_detect(path, "slides")) %>%
   filter(!str_detect(path, "setup")) %>%
   # set filter to match the changed files
-   filter(str_detect(path,
-    # comment/un-comment here to update the slide(s):
-    "01-hello-world.Rmd"
-    #"01-welcome.Rmd"
-    # "02-toolkit",
-    # "01-data-viz",
-    # "02-ggplot2",
-    # "04-viz-cat",
-    # "05-tidy-data",
-    # "06-grammar-wrangle",
-    # "07-single-df",
-    # "08-multi-df",
-    # "10-data-types",
-    # "12-data-import",
-    # "02-fitting-interpreting-models"
-  )) %>%
+  #  filter(str_detect(path,
+  #   # comment/un-comment here to update the slide(s):
+  #   "01-hello-world.Rmd"
+  #   #"01-welcome.Rmd"
+  #   # "02-toolkit",
+  #   # "01-data-viz",
+  #   # "02-ggplot2",
+  #   # "04-viz-cat",
+  #   # "05-tidy-data",
+  #   # "06-grammar-wrangle",
+  #   # "07-single-df",
+  #   # "08-multi-df",
+  #   # "10-data-types",
+  #   # "12-data-import",
+  #   # "02-fitting-interpreting-models"
+  # )) %>%
   filter(!str_detect(path, "22")) %>%
   pull(path)
-xaringans[14]
-walk(xaringans[7:12], render)
 
-# tictoc::toc()
+xaringans
+
+# execute rendering function for all selected slide decks
+walk(xaringans[17:19], render)
+

@@ -60,7 +60,7 @@ Please open your Posit Cloud for this exercise.
 :::
 
 ::: reading
-This exercise uses data from the following FiveThirtyEight story on the [Bechdel Test](https://en.wikipedia.org/wiki/Bechdel_test):
+The exercise uses data from [this FiveThirtyEight story](https://fivethirtyeight.com/features/the-dollar-and-cents-case-against-hollywoods-exclusion-of-women/) on the [Bechdel Test](https://en.wikipedia.org/wiki/Bechdel_test).
 
 Hickey, W.
 (2014, April 1): [The Dollar-And-Cents Case Against Hollywood's Exclusion of Women](https://github.com/lukas-jue/intro-tidyverse-2023-january/blob/master/docs/application-exercises/ae-02-bechdel-rmarkdown/bechdel.Rmd), *FiveThirtyEight.com*
