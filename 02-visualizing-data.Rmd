@@ -32,7 +32,7 @@ R4DS :: [Chp 3 - Data visualization](https://r4ds.had.co.nz/data-visualisation.h
 :::
 
 ::: reading
-IMS :: [Sec 2.2 - Exploring categorical data](https://openintro-ims.netlify.app/summarizing-visualizing-data.html#categorical-data)
+IMS :: [Sec 4 - Exploring categorical data](https://openintro-ims.netlify.app/explore-categorical.html)
 :::
 :::
 
@@ -63,6 +63,6 @@ If you're interested in histograms, scatter-, bar-, and density plots, feel free
 :::
 
 ::: reading
-IMS :: [Sec 2.1 - Exploring numerical data](https://openintro-ims.netlify.app/summarizing-visualizing-data.html#numerical-data)
+IMS :: [Sec 5 - Exploring numerical data](https://openintro-ims.netlify.app/explore-numerical.html)
 :::
 :::
